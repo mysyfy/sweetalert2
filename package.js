@@ -11,6 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
+  api.addFiles('src/promise.min.js', 'client');
   api.addFiles('src/sweetalert2.min.js', 'client');
   api.addFiles('src/sweetalert2.min.css', 'client');
 });
